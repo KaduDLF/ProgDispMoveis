@@ -37,6 +37,20 @@ void a4(){
     print('3 hectares é igual a: $conversao alqueires');
 }
 
+void a5(){
+    var soja = 4.10;
+    var milho = 5.15;
+    var arroz = 3.50;
+
+    var maior = soja > milho ? (soja > arroz ? 'soja' : 'arroz') : (milho > arroz ? 'milho' : 'arroz');
+
+    var menor = soja < milho ? (soja < arroz ? 'soja' : 'arroz') : (milho < arroz ? 'milho' : 'arroz');
+
+    var media = (soja + milho + arroz) / 3;
+
+    print('O maior é : $maior , e o menor é : $menor ,  a média é : $media');
+}
+
 void main(){
-    a4();
+    a5();
 }
