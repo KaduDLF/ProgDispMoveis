@@ -24,6 +24,19 @@ void a2(){
     print('O produtor $nome da cidade $cidade Possui $area hectares no ano de $ano');
 }
 
+void a3(){
+    //const = o valor precisa ser conhecido antes do código rodar
+    // final = pode ser declarado vazia e receber um valor mais tarde
+}
+
+void a4(){
+    var alqueire = 4.84;
+    var hectare = 1;
+
+    var conversao = (hectare * 3) * alqueire;
+    print('3 hectares é igual a: $conversao alqueires');
+}
+
 void main(){
-    a2();
+    a4();
 }
